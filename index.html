@@ -5,15 +5,78 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <title>Karma</title>
     <link href='https://fonts.googleapis.com/css?family=Roboto:400,500,300' rel='stylesheet' type='text/css'>
-    <link rel="stylesheet" href="css/normalize.css">
-    <link rel="stylesheet" href="css/style.css">
     <link rel="shortcut icon" type="image/x-icon"  href="favicon.ico">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-
-    <!-- Add your HTML markup here -->
-    <!-- Remember: Use semantic HTML tags like <header>, <main>, <nav>, <footer>, <section> etc -->
-    <!-- All the images you need are in the 'img' folder -->
-
+    <nav class="navbar navbar-expand-lg ml-auto">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">
+                <img src="./img/karma-logo.svg" alt="" width="30" height="24" class="d-inline-block align-text-top">
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0 mx-auto">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">Meet Karma</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">How it works</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Store</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link disabled">Blog</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link disabled">Help</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link disabled">Login</a>
+                    </li>
+                </ul>
+            </div>
+            </div>
+      </nav>
+    <div id="learn-more" class="container-fluid text-center">
+        <div class="column col-md-12 justify-content-center">
+            <h1>Introducing Karma</h1>
+            <h2>Bring WiFi with you, everywhere you go.</h2>
+            <button type="button" class="btn btn-warning">Learn more</button>
+        </div>
+    </div>
+    <div id="services" class="container-fluid text-center">
+        <div class="column col-md-12 justify-content-center">
+            <h1>Everyone needs a little Karma</h1>
+            <div class="container-fluid">
+                <div class="row justify-content-evenly">
+                    <div class="card cards-style">
+                        <img src="img/icon-devices.svg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                          <p class="card-text">Internet for all devices</p>
+                        </div>
+                      </div>
+                      <div class="card cards-style">
+                        <img src="img/icon-coffee.svg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                          <p class="card-text">Boost your productivity</p>
+                        </div>
+                      </div>
+                      <div class="card  cards-style">
+                        <img src="img/icon-refill.svg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                          <p class="card-text">Pay as you go</p>
+                        </div>
+                      </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <footer></footer>
 </body>
+<script source="resources/js/bootstrap.min.js"></script>
 </html>

@@ -16,4 +16,19 @@ body {
  * - When using Flexbox, remember the items you want to move around need to be inside a parent container set to 'display: flex'
  */
 
+ navbar {
+    background-color: white;
+ }
 
+ #learn-more {
+    background-image: url("../img/first-background.jpg");
+    background-repeat: no-repeat;
+    background-size: 1800px 735px;
+    color: white;
+    height: 100vh;
+ }
+ 
+ .cards-style {
+    width: 10rem; 
+    border: transparent;
+ }
