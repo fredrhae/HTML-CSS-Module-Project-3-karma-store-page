@@ -25,10 +25,32 @@ body {
     background-repeat: no-repeat;
     background-size: 1800px 735px;
     color: white;
-    height: 100vh;
+    height: 70vh;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
  }
  
+ 
+ #services {
+   display: flex;
+   flex-direction: column;
+   align-content: center;
+   justify-content: center;
+   height: 70vh;
+}
+ 
  .cards-style {
-    width: 10rem; 
+    width: 10rem;
+    font-size: 1.2em;
     border: transparent;
+ }
+ 
+ hr {
+   margin: 0 10vw;
+ }
+ 
+ .social-media-icons {
+   margin: 10px 10px;
  }
